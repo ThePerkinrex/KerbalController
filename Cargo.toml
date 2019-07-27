@@ -1,0 +1,17 @@
+[package]
+name = "KerbalController"
+version = "0.1.0"
+authors = ["theperkinrex <theperkinrex@gmail.com>"]
+edition = "2018"
+build = "src/bindings/build.rs"
+
+[[bin]]
+name = "serial_manager"
+path = "src/rust/main.rs"
+
+
+[dependencies]
+serialport = "3.3.0"
+
+[build-dependencies]
+bindgen = "0.51.0"

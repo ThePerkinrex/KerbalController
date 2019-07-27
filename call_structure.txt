@@ -1,0 +1,4 @@
+SerialManager.rs
+	   |-> ser_recieve_thread -> args -> ksp_send.py
+	   |
+	   |<- ser_send_thread <- StdOut <-- ksp_recieve.py
